@@ -75,16 +75,13 @@ body {
   margin-left: 0.35rem;
 }
 .compare__search-wrapper {
-  display: flex;
   width: 100%;
 }
 .compare__search-field {
   display: flex;
   align-items: center;
-  width: 50%;
   height: 6.5rem;
   background-color: #1c2e39;
-  margin-right: 1.5rem;
   border-radius: 1.2rem;
 }
 .search-field__coin-img {
@@ -333,6 +330,9 @@ body {
 @media screen and (max-width: 768px) {
   html {
     font-size: 31.25%;
+  }
+  .compare__search-field {
+    margin-bottom: 4rem;
   }
   .footer__nav-section {
     margin-top: 4rem;
