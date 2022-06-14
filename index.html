@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="upper">
+      <header class="header">
+        <div class="header__nav">
+          <div class="header__logo-white">
+            <img class="logo" src="./assets/images/logo-white.png" />
+          </div>
+          <div class="header__nav-container">
+            <ul class="header__nav-list">
+              <li class="header__nav-item">Products</li>
+              <li class="header__nav-item header__nav-item--selected">
+                Compare Tokens
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <section class="compare">
+        <div class="compare__main">
+          <div class="compare__search-wrapper">
+            <div class="compare__search-field">
+              <img
+                class="search-field__coin-img"
+                src="./assets/images/btc.png"
+                alt="btc"
+              />
+              <span class="search-field__coin-shortname">BTC</span>
+              <span class="search-field__coin-fullname">Bitcoin</span>
+              <input class="search-field__input" type="text" />
+              <img
+                class="search-field__icon"
+                src="./assets/images/search-icon.png"
+                alt="search-icon"
+              />
+            </div>
+            <div class="compare__search-field">
+              <input
+                class="search-field__input"
+                placeholder="Search Coin Name"
+                type="text"
+              />
+              <img
+                class="search-field__icon"
+                src="./assets/images/search-icon.png"
+                alt="search-icon"
+              />
+            </div>
+          </div>
+          <div class="compare__btn-wrapper">
+            <button type="button" class="btn btn-primary compare-btn">
+              <img
+                class="compare-btn__icon"
+                src="./assets/images/compare-btn-icon.png"
+                alt="compare-btn-icon"
+              />
+              <span class="compare-btn__text">Compare</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="information row">
+        <section class="top-compare information-section col-lg-6 col-12">
+          <div class="top-compare__title section-title">Top Compare</div>
+          <div class="top-compare__compare-list list">
+            <div class="compare-list__coin-item list-item">
+              <div class="coin-item__index">1</div>
+              <div class="coin-item__content list-item__content">
+                <div class="coin-item__coin-info coin-item__coin-info--left">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+                <div class="coin-item__coin-info">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="compare-list__coin-item list-item">
+              <div class="coin-item__index">1</div>
+              <div class="coin-item__content list-item__content">
+                <div class="coin-item__coin-info coin-item__coin-info--left">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+                <div class="coin-item__coin-info">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="compare-list__coin-item list-item">
+              <div class="coin-item__index">1</div>
+              <div class="coin-item__content list-item__content">
+                <div class="coin-item__coin-info coin-item__coin-info--left">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+                <div class="coin-item__coin-info">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="compare-list__coin-item list-item">
+              <div class="coin-item__index">1</div>
+              <div class="coin-item__content list-item__content">
+                <div class="coin-item__coin-info coin-item__coin-info--left">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+                <div class="coin-item__coin-info">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="compare-list__coin-item list-item">
+              <div class="coin-item__index">1</div>
+              <div class="coin-item__content list-item__content">
+                <div class="coin-item__coin-info coin-item__coin-info--left">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+                <div class="coin-item__coin-info">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="compare-list__coin-item list-item">
+              <div class="coin-item__index">1</div>
+              <div class="coin-item__content list-item__content">
+                <div class="coin-item__coin-info coin-item__coin-info--left">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+                <div class="coin-item__coin-info">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="compare-list__coin-item list-item">
+              <div class="coin-item__index">1</div>
+              <div class="coin-item__content list-item__content">
+                <div class="coin-item__coin-info coin-item__coin-info--left">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+                <div class="coin-item__coin-info">
+                  <div class="coin-item__coin-img">
+                    <img src="./assets/images/btc.png" alt="btc" />
+                  </div>
+                  <div class="coin-item__coin-detail">
+                    <div>
+                      <span class="coin-item__short-name">BTC</span>
+                      <span
+                        class="coin-item__badge badge rounded-pill text-bg-success"
+                        >+0.79%</span
+                      >
+                    </div>
+                    <div class="coin-item__full-name">Bitcoin</div>
+                    <div class="coin-item__value">$31,286.47</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="research information-section col-lg-6 col-12">
+          <div class="section-title">Research</div>
+          <div class="research__research-list list">
+            <div class="research-list__research-item list-item">
+              <div class="research-item__content list-item__content">
+                <div class="research-item__img research-item__img-1"></div>
+                <div class="research-item__detail">
+                  <div>
+                    <span class="research-item__title"
+                      >Put your title goes here</span
+                    >
+                    <div class="research-item__coin-icons">
+                      <div class="research-item__coin-wrapper">
+                        <img
+                          class="research-item__coin-img reseach-item__coin-img--first"
+                          src="./assets/images/btc.png"
+                          alt=""
+                        />
+                        <img
+                          class="research-item__coin-img"
+                          src="./assets/images/eth.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span class="research-item__description"
+                    >Lorem ipsum dolor sit amet, con sectetur adipiscing elit,
+                  </span>
+                  <span class="research-item__time">6-16-2022</span>
+                </div>
+              </div>
+            </div>
+            <div class="research-list__research-item list-item">
+              <div class="research-item__content list-item__content">
+                <div class="research-item__img research-item__img-1"></div>
+                <div class="research-item__detail">
+                  <div>
+                    <span class="research-item__title"
+                      >Put your title goes here</span
+                    >
+                    <div class="research-item__coin-icons">
+                      <div class="research-item__coin-wrapper">
+                        <img
+                          class="research-item__coin-img reseach-item__coin-img--first"
+                          src="./assets/images/btc.png"
+                          alt=""
+                        />
+                        <img
+                          class="research-item__coin-img"
+                          src="./assets/images/eth.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span class="research-item__description"
+                    >Lorem ipsum dolor sit amet, con sectetur adipiscing elit,
+                  </span>
+                  <span class="research-item__time">6-16-2022</span>
+                </div>
+              </div>
+            </div>
+            <div class="research-list__research-item list-item">
+              <div class="research-item__content list-item__content">
+                <div class="research-item__img research-item__img-1"></div>
+                <div class="research-item__detail">
+                  <div>
+                    <span class="research-item__title"
+                      >Put your title goes here</span
+                    >
+                    <div class="research-item__coin-icons">
+                      <div class="research-item__coin-wrapper">
+                        <img
+                          class="research-item__coin-img reseach-item__coin-img--first"
+                          src="./assets/images/btc.png"
+                          alt=""
+                        />
+                        <img
+                          class="research-item__coin-img"
+                          src="./assets/images/eth.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span class="research-item__description"
+                    >Lorem ipsum dolor sit amet, con sectetur adipiscing elit,
+                  </span>
+                  <span class="research-item__time">6-16-2022</span>
+                </div>
+              </div>
+            </div>
+            <div class="research-list__research-item list-item">
+              <div class="research-item__content list-item__content">
+                <div class="research-item__img research-item__img-1"></div>
+                <div class="research-item__detail">
+                  <div>
+                    <span class="research-item__title"
+                      >Put your title goes here</span
+                    >
+                    <div class="research-item__coin-icons">
+                      <div class="research-item__coin-wrapper">
+                        <img
+                          class="research-item__coin-img reseach-item__coin-img--first"
+                          src="./assets/images/btc.png"
+                          alt=""
+                        />
+                        <img
+                          class="research-item__coin-img"
+                          src="./assets/images/eth.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span class="research-item__description"
+                    >Lorem ipsum dolor sit amet, con sectetur adipiscing elit,
+                  </span>
+                  <span class="research-item__time">6-16-2022</span>
+                </div>
+              </div>
+            </div>
+            <div class="research-list__research-item list-item">
+              <div class="research-item__content list-item__content">
+                <div class="research-item__img research-item__img-1"></div>
+                <div class="research-item__detail">
+                  <div>
+                    <span class="research-item__title"
+                      >Put your title goes here</span
+                    >
+                    <div class="research-item__coin-icons">
+                      <div class="research-item__coin-wrapper">
+                        <img
+                          class="research-item__coin-img reseach-item__coin-img--first"
+                          src="./assets/images/btc.png"
+                          alt=""
+                        />
+                        <img
+                          class="research-item__coin-img"
+                          src="./assets/images/eth.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span class="research-item__description"
+                    >Lorem ipsum dolor sit amet, con sectetur adipiscing elit,
+                  </span>
+                  <span class="research-item__time">6-16-2022</span>
+                </div>
+              </div>
+            </div>
+            <div class="research-list__research-item list-item">
+              <div class="research-item__content list-item__content">
+                <div class="research-item__img research-item__img-1"></div>
+                <div class="research-item__detail">
+                  <div>
+                    <span class="research-item__title"
+                      >Put your title goes here</span
+                    >
+                    <div class="research-item__coin-icons">
+                      <div class="research-item__coin-wrapper">
+                        <img
+                          class="research-item__coin-img reseach-item__coin-img--first"
+                          src="./assets/images/btc.png"
+                          alt=""
+                        />
+                        <img
+                          class="research-item__coin-img"
+                          src="./assets/images/eth.png"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <span class="research-item__description"
+                    >Lorem ipsum dolor sit amet, con sectetur adipiscing elit,
+                  </span>
+                  <span class="research-item__time">6-16-2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="row">
+        <section class="footer__detail col-lg-4">
+          <img
+            class="footer__logo logo"
+            src="./assets/images/logo-blue.png"
+            alt="logo-blue"
+          />
+          <span class="footer__description col-lg-8"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Facilisis
+            metus, et eget convallis et. Sapien nibh quis dignissim scelerisque
+            tincidunt nisi. Natoque felis at morbi varius turpis faucibus.
+            Mollis consequat neque, aliquam lacus condimentum eu sed non.</span
+          >
+          <div class="footer__community">
+            <span class="footer__community-text">Join our community</span>
+            <img
+              class="footer__community-icon"
+              src="./assets/images/discord.png"
+              alt="discord"
+            />
+            <img
+              class="footer__community-icon"
+              src="./assets/images/facebook.png"
+              alt="facebook"
+            />
+            <img
+              class="footer__community-icon"
+              src="./assets/images/linkedin.png"
+              alt="linkedin"
+            />
+            <img
+              class="footer__community-icon"
+              src="./assets/images/telegram.png"
+              alt="telegram"
+            />
+            <img
+              class="footer__community-icon"
+              src="./assets/images/twitter.png"
+              alt="twitter"
+            />
+          </div>
+        </section>
+        <section class="footer__nav col-lg-8">
+          <div class="row">
+            <section class="footer__explore footer__nav-section col-lg-3 col-6">
+              <span class="footer__nav-title">Explore</span>
+              <span class="footer__nav-item">All NFTs</span>
+              <span class="footer__nav-item">Virtual Worlds</span>
+              <span class="footer__nav-item">Music</span>
+              <span class="footer__nav-item">Digital art</span>
+              <span class="footer__nav-item">Domain Names</span>
+            </section>
+            <section class="footer__explore footer__nav-section col-lg-3 col-6">
+              <span class="footer__nav-title">Resources</span>
+              <span class="footer__nav-item">Help center</span>
+              <span class="footer__nav-item">Platform status</span>
+              <span class="footer__nav-item">Blog</span>
+              <span class="footer__nav-item">Partners</span>
+              <span class="footer__nav-item">Newsletter </span>
+            </section>
+            <section class="footer__explore footer__nav-section col-lg-3 col-6">
+              <span class="footer__nav-title">My wallet</span>
+              <span class="footer__nav-item">Profile</span>
+              <span class="footer__nav-item">Favourite</span>
+              <span class="footer__nav-item">My collections</span>
+              <span class="footer__nav-item">Settings</span>
+            </section>
+            <section class="footer__explore footer__nav-section col-lg-3 col-6">
+              <span class="footer__nav-title">Company</span>
+              <span class="footer__nav-item">About us</span>
+              <span class="footer__nav-item">Careers</span>
+            </section>
+          </div>
+        </section>
+      </div>
+      <div class="footer__terms">
+        <div class="row">
+          <span class="footer__terms-text col-lg-8"
+            >Copyrights 2022 @ All Rights Resvered</span
+          >
+          <span class="footer__terms-text col-lg-2">Privacy Policy</span>
+          <span class="footer__terms-text col-lg-2">Terms Of Services</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
